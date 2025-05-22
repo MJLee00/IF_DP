@@ -1,3 +1,1 @@
 nohup: ignoring input
-/home/share/anaconda3/envs/deepspeed/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
-  warnings.warn(

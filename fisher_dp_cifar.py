@@ -115,7 +115,7 @@ def main():
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=2, verbose=True)
     criterion = nn.CrossEntropyLoss()
     
-    for epoch in range(10):
+    for epoch in range(100):
         baseline_model.train()
         total_loss = 0
         for batch_idx, (data, target) in enumerate(private_loader):
